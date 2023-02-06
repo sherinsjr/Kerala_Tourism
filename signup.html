@@ -1,183 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kerala Tourism</title>
-    <link rel="stylesheet" href="./CSS/style.css" />
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-md">
-      <img id="img-logo" src="./images/kerala-logo.png" alt="logo" />
-      <div class="container">
-        <a class="navbar-brand" href="#" id="main-head">KERALA TOURISM</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav my-navbar">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="home.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="district.html">Districts</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">AboutUS</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Explore
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="./signup.html">SignIn</a>
-                </li>
-                <li><a class="dropdown-item" href="./login.html">Login</a></li>
-                <li>
-                  <a class="dropdown-item" href="./login.html"
-                    >Login For Better Experience</a
-                  >
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kerala Tourism</title>
+  <link rel="stylesheet" href="./CSS/style.css" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-md">
+    <img id="img-logo" src="./images/kerala-logo.png" alt="logo" />
+    <div class="container">
+      <a class="navbar-brand" href="#" id="main-head">KERALA TOURISM</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav my-navbar">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="district.html">Districts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">AboutUS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Explore
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="./signup.html">SignIn</a>
+              </li>
+              <li><a class="dropdown-item" href="./login.html">Login</a></li>
+              <li>
+                <a class="dropdown-item" href="./login.html">Login For Better Experience</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <!-- navbar-end -->
-    <!-- signup -->
+    </div>
+  </nav>
+  <!-- navbar-end -->
 
-    <div class="mask d-flex align-items-center h-100 gradient-custom-3">
-      <div class="container h-100">
-        <div class="row d-flex justify-content-center align-items-center h-100">
-          <div class="col-12 col-md-9 col-lg-7 col-xl-6">
-            <div class="card" style="border-radius: 15px">
-              <div class="card-body p-4">
-                <h2 class="text-uppercase text-center mb-5">SignUp</h2>
 
-                <form class="Sign_form">
-                  <div class="form-outline mb-4">
-                    <!-- <label class="form-label" for="form3Example1cg"
-                          >Your Name</label
-                        > -->
-                    <input
-                      type="text"
-                      placeholder="Your Name"
-                      id="form3Example1cg"
-                      class="form-control form-control-lg"
-                    />
-                  </div>
+  <!-- signup -->
 
-                  <div class="form-outline mb-4">
-                    <input
-                      type="email"
-                      placeholder="Enter Your Email Id"
-                      id="form3Example3cg"
-                      class="form-control form-control-lg"
-                    />
-                    <!-- <label class="form-label" for="form3Example3cg"
-                        >Your Email</label
-                      > -->
-                  </div>
+  <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+    <div class="container h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+          <div class="signup-card card" style="border-radius: 15px">
+            <div class="signup-form card-body p-4">
+              <h2 class="text-uppercase text-center mb-5">SignUp</h2>
 
-                  <div class="form-outline mb-4">
-                    <input
-                      type="password"
-                      placeholder="Phone Number"
-                      id="form3Example4cg"
-                      class="form-control form-control-lg"
-                    />
-                  </div>
+              <form onsubmit="return validation()" action="/home.html" class="Sign_form">
+                <div class="form-outline mb-4">
+                  <input type="text" placeholder="Your Name" id="name" class="form-control form-control-lg s-form-inpt" required />
+                </div>
 
-                  <div class="form-outline mb-4">
-                    <input
-                      type="password"
-                      placeholder="Password"
-                      id="form3Example4cg"
-                      class="form-control form-control-lg"
-                    />
-                    <!-- <label class="form-label" for="form3Example4cg"
-                        >Password</label
-                      > -->
-                  </div>
+                <div class="form-outline mb-4">
+                  <input type="text" placeholder="Enter Your Email Id" id="email"
+                    class="form-control form-control-lg s-form-inpt" onfocus="return emailValidation()" />
+                </div>
+                <div id="email-error" class="s-error"></div>
 
-                  <div class="form-outline mb-4">
-                    <input
-                      type="password"
-                      placeholder="Repeat Your Password"
-                      id="form3Example4cdg"
-                      class="form-control form-control-lg"
-                    />
-                    <!-- <label class="form-label" for="form3Example4cdg"
-                        >Repeat your password</label
-                      > -->
-                  </div>
+                <div class="form-outline mb-4">
+                  <input type="text" placeholder="Phone Number" id="phone" class="form-control form-control-lg s-form-inpt" onfocus="return phoneValidation()"  />
+                </div>
+                <div id="phone-error" class="s-error"></div>
 
-                  <!-- <div class="form-check d-flex justify-content-center mb-5">
-                      <input
-                        class="form-check-input me-2"
-                        type="checkbox"
-                        value=""
-                        id="form2Example3cg"
-                      />
-                      <label class="form-check-label" for="form2Example3g">
-                        I agree all statements in
-                        <a href="#!" class="text-body"
-                          ><u>Terms of service</u></a
-                        >
-                      </label>
-                    </div> -->
+                <div class="form-outline mb-4">
+                  <input type="password" placeholder="Password" id="password" class="form-control form-control-lg s-form-inpt" onfocus="return passwordValidation()"  />
 
-                  <div class="d-flex justify-content-center">
-                    <button
-                      type="button"
-                      class="btn btn-success btn-block btn-lg gradient-custom-4 text-body"
-                    >
-                      SignUp
-                    </button>
-                  </div>
+                </div>
+                <div id="password-error" class="s-error"></div>
 
-                  <p class="text-center text-muted mt-5 mb-0">
-                    Have already an account?
-                    <a href="#!" class="fw-bold text-body"><u>Login here</u></a>
-                  </p>
-                </form>
-              </div>
+                <div class="form-outline mb-4">
+                  <input type="password" placeholder="Repeat Your Password" id="repeatPassword"
+                    class="form-control form-control-lg s-form-inpt" onfocus="return repeatPasswordValidation()"  />
+
+                </div>
+                <div id="repeatPassword-error" class="s-error" ></div>
+
+                <div class="d-flex justify-content-center">
+                  <button type="submit" class="btn btn-success btn-block btn-l gradient-custom-4 text-body">
+                    SignUp
+                  </button>
+                </div>
+
+                <p class="text-center text-muted mt-5 mb-0">
+                  Have already an account?
+                  <a href="#!" class="fw-bold text-body"><u>Login here</u></a>
+                </p>
+              </form>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- footer -->
-  </body>
+  <!-- footer -->
+  <div class="footer">
+    <footer>
+      <h3 id="footer">Copyright@2023</h3>
+    </footer>
+  </div>
+  <!-- footer-end -->
+
+  <!-- scripts -->
+  <script src="./scripts/signup.js"></script>
+</body>
+
 </html>

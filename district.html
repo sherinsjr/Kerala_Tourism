@@ -1,254 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Districts</title>
-    <link rel="stylesheet" href="/CSS/style.css" />
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-md">
-      <div class="container">
-        <img id="img-logo" src="./images/kerala-logo.png" alt="logo" />
-        <a class="navbar-brand" href="#" id="main-head">KERALA TOURISM</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav my-navbar">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="home.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="district.html">Districts</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="aboutus.html">AboutUS</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Explore
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="./signup.html">SignIn</a></li>
-                <li><a class="dropdown-item" href="./login.html">Login</a></li>
-                <li>
-                  <a class="dropdown-item" href="./login.html"
-                    >Login For Better Experience</a
-                  >
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- navbar-end -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Districts</title>
+  <link rel="stylesheet" href="/CSS/style.css" />
 
-    <!-- D-main-part -->
-    <div class="dist-conti">
-      <h4 id="d-heading-1">KERALA TOURISM...</h4>
-      <h5 id="d-heading-2">select your favourite destination from Districts</h5>
-      <br>
-      <div class="row row-cols-1 row-cols-md-4 g-4 p-4">
-        <div class="col">
-          <div class="dist-card h-100">
-            <img
-              src="./images/Trivandram-main.jpg"
-              class="card-img-top dist-img"
-              alt="..."
-            />
-            <a href="./Districts-exp/Tvm.html"
-              ><h5 class="image-text" id="tv">Thiruvanathapuram</h5></a
-            >
-          </div>
-        </div>
-        <div class="col">
-          <div class="dist-card h-100">
-            <img
-              src="./images/Kollam-main.jpg"
-              class="card-img-top dist-img"
-              alt="..."
-            />
-            <a href="./Districts-exp/Kollam.html">
-              <h5 class="image-text" id="tv">Kollam</h5>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-md">
+    <div class="container">
+      <img id="img-logo" src="./images/kerala-logo.png" alt="logo" />
+      <a class="navbar-brand" href="#" id="main-head">KERALA TOURISM</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav my-navbar">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="district.html">Districts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">AboutUS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Explore
             </a>
-          </div>
-        </div>
-        <div class="col">
-          <div class="dist-card h-100">
-            <img
-              src="./images/Pathanamthitta-main.jpg"
-              class="card-img-top dist-img"
-              alt="..."
-            />
-            <a href="./Districts-exp/Pathanamthitta.html">
-              <h5 class="image-text" id="tv">Pathanamthitta</h5>
-            </a>
-          </div>
-        </div>
-        <div class="col">
-          <div class="dist-card h-100">
-            <img
-              src="./images/Alappuzha-main.jpg"
-              class="card-img-top dist-img"
-              alt="..."
-            />
-            <a href="./Districts-exp/Alappuzha.html">
-              <h5 class="image-text" id="tv">Alappuzha</h5>
-            </a>
-          </div>
-        </div>
-        <div class="col">
-          <div class="dist-card h-100">
-            <img
-              src="./images/Kottayam -main.jpg"
-              class="card-img-top dist-img"
-              alt="..."
-            />
-            <a href="Districts-exp/Kottayam.html">
-              <h5 class="image-text" id="tv">Kottayam</h5>
-            </a>
-          </div>
-        </div>
-        <div class="col">
-          <div class="dist-card h-100">
-            <img
-              src="./images/idukki-main.jpg"
-              class="card-img-top dist-img"
-              alt="..."
-            />
-            <a href="#">
-              <h5 class="image-text" id="tv">Idukki</h5>
-            </a>
-          </div>
-        </div>
-        <div class="col">
-          <div class="dist-card h-100">
-            <img
-              src="./images/Ernakulam-main.jpg"
-              class="card-img-top dist-img"
-              alt="..."
-            />
-            <a href="#">
-              <h5 class="image-text" id="tv">Ernakulam</h5>
-            </a>
-          </div>
-        </div>
-        <div class="col">
-          <div class="dist-card h-100">
-            <img
-              src="./images/Thrissur-main.jpg"
-              class="card-img-top dist-img"
-              alt="..."
-            />
-            <a href="#">
-              <h5 class="text-image" id="tv">Thrissur</h5>
-            </a>
-          </div>
-        </div>
-        <div class="col">
-          <div class="dist-card h-100">
-            <img
-              src="./images/palakkad-main.jpg"
-              class="card-img-top dist-img"
-              alt="..."
-            />
-            <a href="#">
-              <h5 class="image-text" id="tv">palakkad</h5>
-            </a>
-          </div>
-        </div>
-        <div class="col">
-          <div class="dist-card h-100">
-            <img
-              src="./images/Malappuram-main.jpg"
-              class="card-img-top dist-img"
-              alt="..."
-            />
-            <a href="#">
-              <h5 class="image-text" id="tv">Malappuram</h5>
-            </a>
-          </div>
-        </div>
-        <div class="col">
-          <div class="dist-card h-100">
-            <img
-              src="./images/Kozhikode-main.jpg"
-              class="card-img-top dist-img"
-              alt="..."
-            />
-            <a href="#">
-              <h5 class="image-text" id="tv">Kozhikode</h5>
-            </a>
-          </div>
-        </div>
-        <div class="col">
-          <div class="dist-card h-100">
-            <img
-              src="./images/Wayanad-main.jpg"
-              class="card-img-top dist-img"
-              alt="..."
-            />
-            <a href="#">
-              <h5 class="image-text" id="tv">Wayanad</h5>
-            </a>
-          </div>
-        </div>
-        <div class="col">
-          <div class="dist-card h-100">
-            <img
-              src="./images/Kannur-main.JPG"
-              class="card-img-top dist-img"
-              alt="..."
-            />
-            <a href="#">
-              <h5 class="image-text" id="tv">Kannur</h5>
-            </a>
-          </div>
-        </div>
-        <div class="col">
-          <div class="dist-card h-100">
-            <img
-              src="./images/Kasaragod-main.jpg"
-              class="card-img-top dist-img"
-              alt="..."
-            />
-            <a href="#">
-              <h5 class="image-text" id="tv">Kasaragod</h5>
-            </a>
-          </div>
-        </div>
-        </div>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./signup.html">SignIn</a></li>
+              <li><a class="dropdown-item" href="./login.html">Login</a></li>
+              <li>
+                <a class="dropdown-item" href="./login.html">Login For Better Experience</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
       </div>
     </div>
-  </body>
+  </nav>
+  <!-- navbar-end -->
+
+  <!-- D-main-part -->
+  <div class="container">
+    <h4 id="d-heading-1">KERALA TOURISM...</h4>
+    <h5 id="d-heading-2">select your favourite destination from Districts</h5>
+    <br>
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      
+      <div class="col">
+        <div class="card stacked">
+          <img src="images/Trivandram-main.jpg" class="card-img-top img-2" alt="...">
+          <a href="/Districts-exp/Tvm.html" class="image-text">
+            <h5 class="image-text" id="tv">Thiruvanathapuram</h5>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card stacked">
+          <img src="images/Kollam-main.jpg" class="card-img-top img-2" alt="...">
+          <a href="/Districts-exp/Kollam.html" class="image-text">
+            <h5 class="image-text" id="tv">Kollam</h5>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card stacked">
+          <img src="images/Pathanamthitta-main.jpg" class="card-img-top img-2" alt="...">
+          <a href="/Districts-exp/Pathanamthitta.html" class="image-text">
+            <h5 class="image-text" id="tv">Pathanamthitta</h5>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card stacked">
+          <img src="images/Alappuzha-main.jpg" class="card-img-top img-2" alt="...">
+          <a href="./Districts-exp/Alappuzha.html" class="image-text">
+            <h5 class="image-text" id="tv">Alappuzha</h5>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card stacked">
+          <img src="images/Kottayam -main.jpg" class="card-img-top img-2" alt="...">
+          <a href="./Districts-exp/Kottayam.html" class="image-text">
+            <h5 class="image-text" id="tv">Kottayam</h5>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card stacked">
+          <img src="images/idukki-main.jpg" class="card-img-top img-2" alt="...">
+          <a href="" class="image-text">
+            <h5 class="image-text" id="tv">Idukki</h5>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card stacked">
+          <img src="images/Ernakulam-main.jpg" class="card-img-top img-2" alt="...">
+          <a href="" class="image-text">
+            <h5 class="image-text" id="tv">Ernakulam</h5>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card stacked">
+          <img src="images/Thrissur-main.jpg" class="card-img-top img-2" alt="...">
+          <a href="" class="image-text">
+            <h5 class="image-text" id="tv">Thrissur</h5>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card stacked">
+          <img src="images/palakkad-main.jpg" class="card-img-top img-2" alt="...">
+          <a href="" class="image-text">
+            <h5 class="image-text" id="tv">Palakkad</h5>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card stacked">
+          <img src="images/Malappuram-main.jpg" class="card-img-top img-2" alt="...">
+          <a href="" class="image-text">
+            <h5 class="image-text" id="tv">Malappuram</h5>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card stacked">
+          <img src="images/Kozhikode-main.jpg" class="card-img-top img-2" alt="...">
+          <a href="" class="image-text">
+            <h5 class="image-text" id="tv"> Kozhikode</h5>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card stacked">
+          <img src="images/Wayanad-main.jpg" class="card-img-top img-2" alt="...">
+          <a href="" class="image-text">
+            <h5 class="image-text" id="tv">Wayanad</h5>
+          </a>
+        </div>
+      </div>
+      <div class="col " id="card1">
+        <div class="card stacked">
+          <img src="images/Kannur-main.JPG" class="card-img-top img-2" alt="...">
+          <a href="" class="image-text">
+            <h5 class="image-text" id="tv">Kannur</h5>
+          </a>
+        </div>
+      </div>
+      <div class="col" id="card1">
+        <div class="card stacked">
+          <img src="images/Kasaragod-main.jpg" class="card-img-top img-2 " alt="...">
+          <a href="" class="image-text">
+            <h5 class="image-text" id="tv">Kasaragod</h5>
+          </a>
+        </div>
+      </div>
+
+  </div>
+</body>
+
 </html>

@@ -130,7 +130,7 @@ body {
   letter-spacing: 1px;
 }
 
-/* .dist-card {
+.dist-card {
   position: relative;
   width: 100%;
   height: 100%;
@@ -140,7 +140,44 @@ body {
 .dist-card:hover {
   transform: scale(1.05s);
 }
-.dist-img {
+/* .dist-img {
+  position: absolute;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+} */
+
+/* .image-text {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  opacity: 0;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+.image-text:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  cursor: pointer;
+} */
+.stacked{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+.stacked:hover{
+  transform: scale(1.05);
+
+}
+.media{
   position: absolute;
   z-index: 0;
   height: 100%;
@@ -166,7 +203,8 @@ body {
   opacity: 1;
   transform: scale(1.1);
   cursor: pointer;
-} */
+}
+
 
 /* signup-page */
 .gradient-custom-3 {
@@ -200,11 +238,65 @@ body {
   );
 }
 
+.signup-card {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.s-form-inpt{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+.s-error{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+   
+}
+
 /* login-page */
+.loginForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .my_login {
-  background-color: #24c6dc;
+  border-radius: 8px;
+  background-color: #c4b3c1d8;
   margin-top: 50px;
   width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+}
+.l-form-in{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border-top-color: #21d4fd;
+  border-left-color: #21d4fd;
+  border-bottom-color: #b721ff;
+  border-right-color: #b721ff;
+  
+}
+#log-Btn{
+ width: 100px;
+ border-radius: 9px;
+ background-image: linear-gradient(70deg, #21d4fd 0%, #b721ff 100%);
+ color: antiquewhite;
+ transition: all .5s;
+}
+#log-Btn:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+  border-color:whitesmoke;
+  
 }
 
 /* districts-exp */
