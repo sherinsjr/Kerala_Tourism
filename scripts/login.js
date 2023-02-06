@@ -23,7 +23,7 @@ function emailValidation() {
 
 function passwordValidation(){
     const passwordFormat =
-    /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,12}$/;
+    /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,16}$/;
     if(password.value.length>=8){
         if(passwordFormat.test(password.value)){
             passwordError.innerHTML="<small>! Correct Password</small>";
